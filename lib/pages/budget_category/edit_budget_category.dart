@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 //User interface dialog page for editing budget category.
 class EditBudgetCategory extends StatefulWidget {
@@ -55,6 +56,7 @@ class _EditBudgetCategoryState extends State<EditBudgetCategory> {
         });
         Navigator.of(context).pop();
       } catch (e) {
+        showToast(message: "Some error happend");
       } finally {
         setState(() {
           _isConfirm = false;
@@ -192,4 +194,16 @@ class _EditBudgetCategoryState extends State<EditBudgetCategory> {
       ),
     );
   }
+}
+
+void showToast({required String message}){
+  Fluttertoast.showToast(
+      msg: message,
+      toastLength: Toast.LENGTH_SHORT,
+      gravity: ToastGravity.BOTTOM,
+      timeInSecForIosWeb: 1,
+      backgroundColor: Colors.blue,
+      textColor: Colors.white,
+      fontSize: 16.0
+  );
 }

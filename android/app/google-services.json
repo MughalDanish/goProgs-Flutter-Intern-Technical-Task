@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "912930977203",
+    "project_id": "goprogs-flutter-intern-task",
+    "storage_bucket": "goprogs-flutter-intern-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912930977203:android:8fbbc7fce768b46483c7c6",
+        "android_client_info": {
+          "package_name": "com.example.goprogs_flutter_intern_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9JxcIJOacwWydSZH8WEzLsror5FtryYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

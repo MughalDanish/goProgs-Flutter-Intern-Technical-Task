@@ -2,6 +2,28 @@
 
 A new Flutter project.
 
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+- Flutter SDK
+- Dart SDK
+- An IDE such as Visual Studio Code or Android Studio
+
+### Setup
+
+1. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/MughalDanish/goProgs-Flutter-Intern-Technical-Task
+2. Navigate to the project directory:
+    ```sh
+    cd goprogs_flutter_intern_task
+3. Fetch the project dependencies:
+   ```sh
+   flutter pub get
+4. To run the project, use the following command:
+   ```sh
+   flutter run
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

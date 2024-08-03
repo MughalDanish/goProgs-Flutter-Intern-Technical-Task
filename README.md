@@ -1,6 +1,6 @@
 # goprogs_flutter_intern_task
 
-A new Flutter project.
+Personal Budgeting App
 
 ### Prerequisites
 

@@ -22,7 +22,7 @@ class _ViewBudgetCategoryState extends State<ViewBudgetCategory> {
             'Personal Budget',
             style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 25,
+                fontSize: 27,
                 color: Colors.orange[400]),
           ),
         ),
@@ -59,7 +59,7 @@ class _ViewBudgetCategoryState extends State<ViewBudgetCategory> {
                         title: Text(
                           category['category_name'],
                           style: TextStyle(
-                              color: Colors.white70, fontWeight: FontWeight.bold),
+                              color: Colors.white70, fontWeight: FontWeight.bold, fontSize: 20),
                         ),
                         subtitle: Text.rich(
                           TextSpan(
@@ -69,6 +69,7 @@ class _ViewBudgetCategoryState extends State<ViewBudgetCategory> {
                                 style: TextStyle(
                                   color: Colors.grey,
                                   fontWeight: FontWeight.normal,
+                                  fontSize: 16
                                 ),
                               ),
                               TextSpan(
@@ -76,6 +77,7 @@ class _ViewBudgetCategoryState extends State<ViewBudgetCategory> {
                                 style: TextStyle(
                                   color: Colors.white70,
                                   fontWeight: FontWeight.normal,
+                                    fontSize: 16
                                 ),
                               ),
                               TextSpan(
@@ -83,6 +85,7 @@ class _ViewBudgetCategoryState extends State<ViewBudgetCategory> {
                                 style: TextStyle(
                                   color: Colors.grey,
                                   fontWeight: FontWeight.normal,
+                                    fontSize: 16
                                 ),
                               ),
                             ],
